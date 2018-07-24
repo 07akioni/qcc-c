@@ -1,13 +1,6 @@
-function test () {
-  console.log('hello')
-}
+const fetch = require('./fetch')
+const init  = require('./init')
 
-var x = 1
+init()
 
-for (let i of [1, 2, 3]) {
-  console.log(i)
-}
-
-;(function () {
-
-})()
+fetch.fetchCompanyRawSearchResult()
