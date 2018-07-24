@@ -17,6 +17,7 @@
             "error",
             "unix"
         ],
+        "no-constant-condition": 0,
         "quotes": [
             "error",
             "single"
